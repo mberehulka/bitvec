@@ -6,8 +6,8 @@ Bits are aligned from left to right;
 So, in a vector of u32, the position is:
 - 31 = 0b1
 - 30 = 0b10
-- 16 = 0b1000000000000000
 - 0 = 0b10000000000000000000000000000000
+- 16 = 0b1000000000000000
 
 ### Example:
 ```rust
