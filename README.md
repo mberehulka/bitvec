@@ -1,6 +1,6 @@
 # BitVec
 
-### Simple vector of bits aligned inside a vector of u8, u16, u32, u64 or u128.
+Simple vector of bits aligned inside a vector of u8, u16, u32, u64 or u128.
 
 Bits are aligned in little endian order.
 
