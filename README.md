@@ -1,13 +1,8 @@
 # BitVec
 
-### Simple vector of bits aligned inside a vector of u8, u16, u32, u64 or u128
+### Simple vector of bits aligned inside a vector of u8, u16, u32, u64 or u128.
 
-Bits are aligned from left to right;
-So, in a vector of u32, the position is:
-- 31 = 0b1
-- 30 = 0b10
-- 0 = 0b10000000000000000000000000000000
-- 16 = 0b1000000000000000
+Bits are aligned in little endian order.
 
 ### Example:
 ```rust
